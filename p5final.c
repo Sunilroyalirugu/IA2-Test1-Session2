@@ -33,6 +33,16 @@ void output(int a, int b, int gcd)
 }
 
 int main()
+  {
+  int a, b, gcd;
+  a = input();
+  b = input();
+  gcd = find_gcd(a,b);
+  output(a,b,gcd);
+  return 0;
+}
+  
+  
 {
   int a, b, gcd;
   a = input();
