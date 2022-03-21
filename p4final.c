@@ -33,6 +33,17 @@ int sum_composite(int n, int a[n])
   for (int i=0;i<n;i++)
   {
     if ( iscomposite(a[i]))
+       {
+      sum = sum + a[i];
+    }
+  }
+  return sum;
+}
+
+void output(int s)
+{
+  printf("sum of composite number is %d\n",s)
+}
     {
       sum = sum + a[i];
     }
