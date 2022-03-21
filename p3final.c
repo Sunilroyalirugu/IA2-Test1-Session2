@@ -33,6 +33,15 @@ void output(int n,int composite)
   else printf("The number  0 & 1 is neither prime nor composite number");
   }
 int main()
+  {
+  int n,composite;
+  n=input_number();
+  composite=is_composite(n);
+  output(n,composite);
+  return 0;
+  }
+
+  
 {
   int n,composite;
   n=input_number();
